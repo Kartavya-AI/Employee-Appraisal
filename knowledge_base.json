@@ -1,0 +1,2512 @@
+{
+    "Python Developer": [
+        {
+            "question": "What is the Global Interpreter Lock (GIL) in Python?",
+            "options": [
+                "A lock that allows only one thread to execute at a time.",
+                "A tool for global variable management.",
+                "A security feature in the Python interpreter.",
+                "A library for parallel processing."
+            ],
+            "answer": "A lock that allows only one thread to execute at a time."
+        },
+        {
+            "question": "What is a decorator in Python?",
+            "options": [
+                "A visual element for UI design.",
+                "A design pattern that allows adding new functionality to an object without altering its structure.",
+                "A special type of comment.",
+                "A function for database connections."
+            ],
+            "answer": "A design pattern that allows adding new functionality to an object without altering its structure."
+        },
+        {
+            "question": "Explain the difference between a list and a tuple.",
+            "options": [
+                "Lists are mutable, tuples are immutable.",
+                "Tuples are mutable, lists are immutable.",
+                "They are identical in function.",
+                "Lists can only store numbers, tuples can store strings."
+            ],
+            "answer": "Lists are mutable, tuples are immutable."
+        },
+        {
+            "question": "What is the purpose of `*args` in a function definition?",
+            "options": [
+                "To pass a variable number of keyword arguments.",
+                "To pass a variable number of positional arguments.",
+                "To specify required arguments.",
+                "To import all functions from a module."
+            ],
+            "answer": "To pass a variable number of positional arguments."
+        },
+        {
+            "question": "What is the purpose of `**kwargs` in a function definition?",
+            "options": [
+                "To pass a variable number of positional arguments.",
+                "To pass a variable number of keyword arguments as a dictionary.",
+                "To define a class constructor.",
+                "To handle file I/O operations."
+            ],
+            "answer": "To pass a variable number of keyword arguments as a dictionary."
+        },
+        {
+            "question": "What does the `yield` keyword do in Python?",
+            "options": [
+                "Stops the execution of a function entirely.",
+                "Returns a value and pauses the function's execution, saving its state.",
+                "Used to declare a static variable.",
+                "Forces a function to run on a separate thread."
+            ],
+            "answer": "Returns a value and pauses the function's execution, saving its state."
+        },
+        {
+            "question": "What is a lambda function?",
+            "options": [
+                "A large, multi-line function for complex operations.",
+                "A named function that can be reused throughout a program.",
+                "A small, anonymous function defined with the `lambda` keyword.",
+                "A function used exclusively for mathematical calculations."
+            ],
+            "answer": "A small, anonymous function defined with the `lambda` keyword."
+        },
+        {
+            "question": "What is the difference between `==` and `is` in Python?",
+            "options": [
+                "`==` checks for memory location, while `is` checks for value equality.",
+                "They are interchangeable and perform the same comparison.",
+                "There is no `is` operator in Python.",
+                "`==` checks for value equality, while `is` checks for object identity (memory location)."
+            ],
+            "answer": "`==` checks for value equality, while `is` checks for object identity (memory location)."
+        },
+        {
+            "question": "What is list comprehension?",
+            "options": [
+                "A complex way to create multi-dimensional lists.",
+                "A concise way to create lists from iterables.",
+                "A built-in function to understand list memory usage.",
+                "A method to combine two lists into one."
+            ],
+            "answer": "A concise way to create lists from iterables."
+        },
+        {
+            "question": "What is the output of `print('hello'[-1])`?",
+            "options": [
+                "h",
+                "o",
+                "e",
+                "An IndexError will be raised."
+            ],
+            "answer": "o"
+        },
+        {
+            "question": "How do you create a virtual environment in Python 3?",
+            "options": [
+                "Using the command `python -m venv myenv`.",
+                "Using the command `python create virtualenv myenv`.",
+                "Virtual environments are created automatically.",
+                "By creating a new folder and adding a `.venv` file."
+            ],
+            "answer": "Using the command `python -m venv myenv`."
+        },
+        {
+            "question": "What is PEP 8?",
+            "options": [
+                "A Python Enhancement Proposal that defines the style guide for Python code.",
+                "The name of the core Python 3.8 engine.",
+                "A library for performance optimization.",
+                "A framework for building web applications."
+            ],
+            "answer": "A Python Enhancement Proposal that defines the style guide for Python code."
+        },
+        {
+            "question": "What is the `__init__` method in a Python class?",
+            "options": [
+                "A method to initialize a module.",
+                "A destructor method called when an object is deleted.",
+                "A constructor method that is called when a new object is created.",
+                "A private method that cannot be accessed from outside the class."
+            ],
+            "answer": "A constructor method that is called when a new object is created."
+        },
+        {
+            "question": "How do you handle exceptions in Python?",
+            "options": [
+                "Using `if-else` statements.",
+                "Using `try...except...finally` blocks.",
+                "Using the `catch` keyword.",
+                "Python handles all exceptions automatically without needing user code."
+            ],
+            "answer": "Using `try...except...finally` blocks."
+        },
+        {
+            "question": "What is the purpose of the `finally` block in a `try...except` statement?",
+            "options": [
+                "It executes only if an exception occurs.",
+                "It executes only if no exception occurs.",
+                "It executes regardless of whether an exception occurred or not.",
+                "It is an alternative name for the `except` block."
+            ],
+            "answer": "It executes regardless of whether an exception occurred or not."
+        },
+        {
+            "question": "What is duck typing?",
+            "options": [
+                "A programming style where an object's type is determined by its name.",
+                "A type system where an object's suitability is determined by the presence of certain methods and properties, rather than its explicit type.",
+                "A module in Python used for debugging.",
+                "A feature that only works with classes named 'Duck'."
+            ],
+            "answer": "A type system where an object's suitability is determined by the presence of certain methods and properties, rather than its explicit type."
+        },
+        {
+            "question": "What is the difference between a module and a package in Python?",
+            "options": [
+                "There is no difference; the terms are used interchangeably.",
+                "A module is a single Python file, while a package is a directory of modules with an `__init__.py` file.",
+                "A module is a collection of packages.",
+                "A package is a single Python file with multiple classes."
+            ],
+            "answer": "A module is a single Python file, while a package is a directory of modules with an `__init__.py` file."
+        },
+        {
+            "question": "What does the `self` parameter in a class method refer to?",
+            "options": [
+                "It refers to the class itself.",
+                "It refers to the instance of the class.",
+                "It is a global variable.",
+                "It is an optional parameter with no specific meaning."
+            ],
+            "answer": "It refers to the instance of the class."
+        },
+        {
+            "question": "How do you open a file named `data.txt` for writing in Python?",
+            "options": [
+                "`open('data.txt', 'r')`",
+                "`open('data.txt', 'w')`",
+                "`read('data.txt')`",
+                "`write('data.txt')`"
+            ],
+            "answer": "`open('data.txt', 'w')`"
+        },
+        {
+            "question": "What is a generator in Python?",
+            "options": [
+                "A function that generates random numbers.",
+                "A class that generates objects.",
+                "A special type of iterator, created using a function with the `yield` keyword.",
+                "A tool for creating documentation automatically."
+            ],
+            "answer": "A special type of iterator, created using a function with the `yield` keyword."
+        },
+        {
+            "question": "What does the `pass` statement do?",
+            "options": [
+                "It terminates the program.",
+                "It skips the current iteration of a loop.",
+                "It is a null operation; nothing happens when it executes.",
+                "It raises an exception."
+            ],
+            "answer": "It is a null operation; nothing happens when it executes."
+        },
+        {
+            "question": "How can you remove duplicate elements from a list?",
+            "options": [
+                "By iterating with a for loop and using `list.remove()`.",
+                "By converting the list to a set, and then back to a list.",
+                "There is a `list.deduplicate()` method.",
+                "Duplicates are automatically removed from lists."
+            ],
+            "answer": "By converting the list to a set, and then back to a list."
+        },
+        {
+            "question": "What is slicing in Python?",
+            "options": [
+                "A way to cut a string into two halves.",
+                "A feature that allows accessing a specific range of elements from a sequence.",
+                "A method for data type conversion.",
+                "A security feature to prevent code injection."
+            ],
+            "answer": "A feature that allows accessing a specific range of elements from a sequence."
+        },
+        {
+            "question": "What is the difference between `list.append(x)` and `list.extend(iterable)`?",
+            "options": [
+                "They do the same thing.",
+                "`append` adds all elements of an iterable as individual elements; `extend` adds the entire iterable as a single element.",
+                "`append` adds its argument as a single element to the end of a list; `extend` iterates over its argument and adds each element to the list.",
+                "`extend` is used for strings only, while `append` is for numbers."
+            ],
+            "answer": "`append` adds its argument as a single element to the end of a list; `extend` iterates over its argument and adds each element to the list."
+        },
+        {
+            "question": "What is Method Resolution Order (MRO) in Python?",
+            "options": [
+                "The order in which methods are defined in a class.",
+                "A way to resolve performance issues in methods.",
+                "The order in which base classes are searched when looking for a method.",
+                "A tool for optimizing recursive functions."
+            ],
+            "answer": "The order in which base classes are searched when looking for a method."
+        },
+        {
+            "question": "What is a context manager and the `with` statement used for?",
+            "options": [
+                "For managing global variables.",
+                "To ensure that resources like files are properly opened and closed.",
+                "To manage the context of a web application request.",
+                "To switch between different Python versions."
+            ],
+            "answer": "To ensure that resources like files are properly opened and closed."
+        },
+        {
+            "question": "How does Python's garbage collection work?",
+            "options": [
+                "It requires manual memory deallocation using a `delete` keyword.",
+                "It primarily uses a combination of reference counting and a cyclic garbage collector.",
+                "Python does not have garbage collection.",
+                "It deletes variables as soon as they go out of scope."
+            ],
+            "answer": "It primarily uses a combination of reference counting and a cyclic garbage collector."
+        },
+        {
+            "question": "What is the difference between a shallow copy and a deep copy?",
+            "options": [
+                "A shallow copy creates a new object and recursively copies all objects found in the original; a deep copy only copies the top-level object.",
+                "A deep copy creates a new object and recursively copies all objects found in the original; a shallow copy creates a new object but inserts references to the objects found in the original.",
+                "They are identical concepts.",
+                "Deep copy is faster but less reliable than a shallow copy."
+            ],
+            "answer": "A deep copy creates a new object and recursively copies all objects found in the original; a shallow copy creates a new object but inserts references to the objects found in the original."
+        },
+        {
+            "question": "What are pickling and unpickling?",
+            "options": [
+                "A way to format strings.",
+                "A process of sorting data in a list.",
+                "The process of serializing a Python object into a byte stream (pickling) and deserializing it back (unpickling).",
+                "A debugging technique for inspecting memory."
+            ],
+            "answer": "The process of serializing a Python object into a byte stream (pickling) and deserializing it back (unpickling)."
+        },
+        {
+            "question": "What is the purpose of the `__str__` method?",
+            "options": [
+                "To convert an object to a string for debugging purposes, meant for developers.",
+                "To provide the official, user-friendly string representation of an object.",
+                "To convert an object into a JSON string.",
+                "To define the string used for class inheritance."
+            ],
+            "answer": "To provide the official, user-friendly string representation of an object."
+        },
+        {
+            "question": "What are f-strings in Python?",
+            "options": [
+                "A way to format strings, introduced in Python 3.6, using an `f` prefix and expressions in curly braces.",
+                "Strings that are fixed and cannot be changed (immutable).",
+                "Strings used exclusively for file paths.",
+                "A legacy string formatting method from Python 2."
+            ],
+            "answer": "A way to format strings, introduced in Python 3.6, using an `f` prefix and expressions in curly braces."
+        },
+        {
+            "question": "How can you find the type of an object in Python?",
+            "options": [
+                "Using the `object_type()` function.",
+                "Using the `typeof` keyword.",
+                "Using the built-in `type()` function.",
+                "By checking the object's `.__type__` attribute."
+            ],
+            "answer": "Using the built-in `type()` function."
+        },
+        {
+            "question": "What is the difference between `.py` and `.pyc` files?",
+            "options": [
+                "`.py` files are source code; `.pyc` files are compiled bytecode.",
+                "`.py` files are for Python 2; `.pyc` are for Python 3.",
+                "`.pyc` files are configuration files.",
+                "There is no difference; the extensions can be used interchangeably."
+            ],
+            "answer": "`.py` files are source code; `.pyc` files are compiled bytecode."
+        },
+        {
+            "question": "What is the `enumerate()` function used for?",
+            "options": [
+                "To evaluate a string as a Python expression.",
+                "To get a count of the number of items in an iterable.",
+                "To add a counter to an iterable and return it as an enumerate object.",
+                "To list all variables in the current scope."
+            ],
+            "answer": "To add a counter to an iterable and return it as an enumerate object."
+        },
+        {
+            "question": "What is the `zip()` function used for?",
+            "options": [
+                "To compress files into a zip archive.",
+                "To create a single iterator that aggregates elements from multiple iterables.",
+                "To quickly sort a list of numbers.",
+                "To connect to a network socket."
+            ],
+            "answer": "To create a single iterator that aggregates elements from multiple iterables."
+        },
+        {
+            "question": "Explain the LEGB rule for scope resolution.",
+            "options": [
+                "It's a rule for naming variables: Length, Explicitness, Globals, Brevity.",
+                "It's the order Python searches for a variable: Local, Enclosing, Global, Built-in.",
+                "It's a set of best practices for code layout.",
+                "It's a memory management principle: Least Effort, Garbage Before."
+            ],
+            "answer": "It's the order Python searches for a variable: Local, Enclosing, Global, Built-in."
+        },
+        {
+            "question": "What is a metaclass in Python?",
+            "options": [
+                "A class that is part of the Python standard library.",
+                "A class of a class; it defines how a class behaves.",
+                "A base class that cannot be instantiated.",
+                "A function that returns a class."
+            ],
+            "answer": "A class of a class; it defines how a class behaves."
+        },
+        {
+            "question": "What is polymorphism?",
+            "options": [
+                "The ability of an object to take on many forms, allowing methods to do different things based on the object it is acting upon.",
+                "A way to prevent objects from being changed.",
+                "The process of converting one data type to another.",
+                "A design pattern for creating only one instance of a class."
+            ],
+            "answer": "The ability of an object to take on many forms, allowing methods to do different things based on the object it is acting upon."
+        },
+        {
+            "question": "How do you reverse a list `my_list` in place?",
+            "options": [
+                "`reversed(my_list)`",
+                "`my_list.reverse()`",
+                "`my_list[::-1]`",
+                "`reverse(my_list)`"
+            ],
+            "answer": "`my_list.reverse()`"
+        },
+        {
+            "question": "What does the `map()` function do?",
+            "options": [
+                "It creates a dictionary from a list of keys and values.",
+                "It applies a given function to each item of an iterable and returns a map object (an iterator).",
+                "It maps a network drive.",
+                "It creates a visual map of the code's structure."
+            ],
+            "answer": "It applies a given function to each item of an iterable and returns a map object (an iterator)."
+        },
+        {
+            "question": "What does the `filter()` function do?",
+            "options": [
+                "It filters out special characters from a string.",
+                "It constructs an iterator from elements of an iterable for which a function returns true.",
+                "It filters out duplicate items from a list.",
+                "It applies a filter to an image."
+            ],
+            "answer": "It constructs an iterator from elements of an iterable for which a function returns true."
+        },
+        {
+            "question": "What is the difference between a static method and a class method?",
+            "options": [
+                "A class method takes a class as the first argument (`cls`), while a static method takes no specific first argument.",
+                "A static method takes the instance as the first argument (`self`).",
+                "They are the same, but class method is the newer syntax.",
+                "A static method can modify class state, while a class method cannot."
+            ],
+            "answer": "A class method takes a class as the first argument (`cls`), while a static method takes no specific first argument."
+        },
+        {
+            "question": "What does the `if __name__ == '__main__':` block do?",
+            "options": [
+                "It defines the main class of the script.",
+                "It is a required syntax for every Python script.",
+                "It checks if the script has a syntax error.",
+                "It allows code to be run only when the script is executed directly, not when imported as a module."
+            ],
+            "answer": "It allows code to be run only when the script is executed directly, not when imported as a module."
+        },
+        {
+            "question": "How do you convert a string `s` to an integer?",
+            "options": [
+                "`integer(s)`",
+                "`s.to_int()`",
+                "`int(s)`",
+                "`parse_int(s)`"
+            ],
+            "answer": "`int(s)`"
+        },
+        {
+            "question": "What is monkey-patching?",
+            "options": [
+                "A debugging technique for finding memory leaks.",
+                "Dynamically modifying or extending code at runtime.",
+                "A way to write code that is intentionally difficult to read.",
+                "A tool for automating GUI interactions."
+            ],
+            "answer": "Dynamically modifying or extending code at runtime."
+        },
+        {
+            "question": "What is `collections.defaultdict`?",
+            "options": [
+                "A dictionary that has default values for all keys.",
+                "A subclass of `dict` that provides a default value for a non-existent key.",
+                "A function that returns the default dictionary implementation.",
+                "A dictionary that cannot be modified."
+            ],
+            "answer": "A subclass of `dict` that provides a default value for a non-existent key."
+        },
+        {
+            "question": "What is the primary difference between a set and a list?",
+            "options": [
+                "Lists are ordered and mutable; sets are unordered and store only unique items.",
+                "Sets are ordered; lists are not.",
+                "Lists can only store numbers; sets can store any data type.",
+                "Sets are mutable, while lists are immutable."
+            ],
+            "answer": "Lists are ordered and mutable; sets are unordered and store only unique items."
+        },
+        {
+            "question": "What is inheritance?",
+            "options": [
+                "The process of an object getting values from a global scope.",
+                "A mechanism where a new class inherits attributes and methods from an existing class.",
+                "A way to lock a class so it cannot be modified.",
+                "The process of a function calling itself."
+            ],
+            "answer": "A mechanism where a new class inherits attributes and methods from an existing class."
+        },
+        {
+            "question": "How are arguments passed in Python: by value or by reference?",
+            "options": [
+                "Strictly by value.",
+                "Strictly by reference.",
+                "Python uses a mechanism known as 'pass-by-object-reference' or 'pass-by-assignment'.",
+                "It depends on the data type."
+            ],
+            "answer": "Python uses a mechanism known as 'pass-by-object-reference' or 'pass-by-assignment'."
+        },
+        {
+            "question": "Which of the following is an immutable data type in Python?",
+            "options": [
+                "List",
+                "Dictionary",
+                "Set",
+                "Tuple"
+            ],
+            "answer": "Tuple"
+        }
+    ],
+    "Project Manager": [
+        {
+            "question": "What is the main purpose of a Gantt chart in project management?",
+            "options": [
+                "To manage project budget.",
+                "To illustrate the project schedule and task dependencies.",
+                "To document stakeholder communication.",
+                "To track team performance metrics."
+            ],
+            "answer": "To illustrate the project schedule and task dependencies."
+        },
+        {
+            "question": "What is 'scope creep'?",
+            "options": [
+                "A type of project risk related to budget.",
+                "The process of finalizing the project scope.",
+                "A gradual expansion of the project's objectives and deliverables.",
+                "A project management software."
+            ],
+            "answer": "A gradual expansion of the project's objectives and deliverables."
+        },
+        {
+            "question": "What does the acronym 'SMART' stand for in goal setting?",
+            "options": [
+                "Specific, Measurable, Achievable, Relevant, Time-bound.",
+                "Simple, Manageable, Actionable, Realistic, Timely.",
+                "Strategic, Motivating, Acknowledged, Rewarding, Trackable.",
+                "Specific, Meaningful, Attainable, Relevant, Tested."
+            ],
+            "answer": "Specific, Measurable, Achievable, Relevant, Time-bound."
+        },
+        {
+            "question": "What is the Critical Path in a project schedule?",
+            "options": [
+                "The shortest sequence of tasks in a project.",
+                "The most expensive sequence of tasks.",
+                "The sequence of tasks with zero float or slack, which determines the shortest possible project duration.",
+                "The list of the most important tasks assigned to the project manager."
+            ],
+            "answer": "The sequence of tasks with zero float or slack, which determines the shortest possible project duration."
+        },
+        {
+            "question": "What is the primary purpose of a Work Breakdown Structure (WBS)?",
+            "options": [
+                "To schedule all project tasks.",
+                "To create a hierarchical decomposition of the total scope of work to be carried out by the project team.",
+                "To assign resources to specific activities.",
+                "To identify all project risks."
+            ],
+            "answer": "To create a hierarchical decomposition of the total scope of work to be carried out by the project team."
+        },
+        {
+            "question": "In a RACI matrix, what does 'Accountable' signify?",
+            "options": [
+                "The person who does the work.",
+                "The person who is kept up-to-date on progress.",
+                "The person who has the final authority and ownership.",
+                "The person who is consulted for their opinion."
+            ],
+            "answer": "The person who has the final authority and ownership."
+        },
+        {
+            "question": "In the Scrum framework, who is responsible for managing and prioritizing the Product Backlog?",
+            "options": [
+                "The Scrum Master",
+                "The Development Team",
+                "The Project Manager",
+                "The Product Owner"
+            ],
+            "answer": "The Product Owner"
+        },
+        {
+            "question": "Which of these is NOT a stage in the traditional project management life cycle?",
+            "options": [
+                "Initiation",
+                "Planning",
+                "Ideation",
+                "Closing"
+            ],
+            "answer": "Ideation"
+        },
+        {
+            "question": "What are the three constraints of the 'Iron Triangle' in project management?",
+            "options": [
+                "Risk, Quality, Resources",
+                "Scope, Time, Cost",
+                "People, Process, Technology",
+                "Stakeholders, Communication, Budget"
+            ],
+            "answer": "Scope, Time, Cost"
+        },
+        {
+            "question": "What is the primary function of a project charter?",
+            "options": [
+                "It is a detailed project plan.",
+                "It formally authorizes the existence of a project and provides the project manager with the authority to apply organizational resources.",
+                "It is a contract with an external vendor.",
+                "It lists all the detailed tasks for the project team."
+            ],
+            "answer": "It formally authorizes the existence of a project and provides the project manager with the authority to apply organizational resources."
+        },
+        {
+            "question": "In Earned Value Management (EVM), what does a Cost Performance Index (CPI) of less than 1 indicate?",
+            "options": [
+                "The project is under budget.",
+                "The project is over budget.",
+                "The project is ahead of schedule.",
+                "The project is exactly on budget."
+            ],
+            "answer": "The project is over budget."
+        },
+        {
+            "question": "Which risk response strategy involves taking action to reduce the probability or impact of a threat?",
+            "options": [
+                "Avoid",
+                "Accept",
+                "Transfer",
+                "Mitigate"
+            ],
+            "answer": "Mitigate"
+        },
+        {
+            "question": "What is a 'milestone' in a project schedule?",
+            "options": [
+                "Any task on the critical path.",
+                "A task that is difficult to complete.",
+                "A significant point or event in the project with zero duration.",
+                "The final deadline of the project."
+            ],
+            "answer": "A significant point or event in the project with zero duration."
+        },
+        {
+            "question": "What is the main purpose of a project's 'lessons learned' document?",
+            "options": [
+                "To assign blame for project failures.",
+                "To document what went right and wrong to improve future projects.",
+                "To create a report for senior management only.",
+                "To calculate the final project budget."
+            ],
+            "answer": "To document what went right and wrong to improve future projects."
+        },
+        {
+            "question": "In Agile project management, what is a 'Sprint'?",
+            "options": [
+                "A quick meeting to resolve a problem.",
+                "The final phase of the project before launch.",
+                "A short, time-boxed period during which a specific amount of work is completed.",
+                "A document outlining the project's goals."
+            ],
+            "answer": "A short, time-boxed period during which a specific amount of work is completed."
+        },
+        {
+            "question": "What is the primary difference between Quality Assurance (QA) and Quality Control (QC)?",
+            "options": [
+                "They are the same concept.",
+                "QA is process-oriented and focuses on preventing defects; QC is product-oriented and focuses on identifying defects.",
+                "QA is performed by the customer; QC is performed by the project team.",
+                "QC is about preventing defects; QA is about identifying them."
+            ],
+            "answer": "QA is process-oriented and focuses on preventing defects; QC is product-oriented and focuses on identifying defects."
+        },
+        {
+            "question": "What is a stakeholder in a project?",
+            "options": [
+                "Only the customers of the project.",
+                "Only the members of the project team.",
+                "Any individual, group, or organization who may affect, be affected by, or perceive itself to be affected by a decision, activity, or outcome of a project.",
+                "Only the investors who fund the project."
+            ],
+            "answer": "Any individual, group, or organization who may affect, be affected by, or perceive itself to be affected by a decision, activity, or outcome of a project."
+        },
+        {
+            "question": "Which of these is a primary responsibility of a Scrum Master?",
+            "options": [
+                "To manage the project budget and timeline.",
+                "To assign tasks to the development team.",
+                "To ensure the team adheres to Agile principles and to remove impediments.",
+                "To dictate the technical implementation of the product."
+            ],
+            "answer": "To ensure the team adheres to Agile principles and to remove impediments."
+        },
+        {
+            "question": "What is the 'Forming, Storming, Norming, Performing' model used to describe?",
+            "options": [
+                "The stages of risk management.",
+                "The phases of a project lifecycle.",
+                "The stages of team development.",
+                "The process of creating a project budget."
+            ],
+            "answer": "The stages of team development."
+        },
+        {
+            "question": "A project has a Schedule Performance Index (SPI) of 1.2. What does this indicate?",
+            "options": [
+                "The project is behind schedule.",
+                "The project is over budget.",
+                "The project is ahead of schedule.",
+                "The project is exactly on schedule."
+            ],
+            "answer": "The project is ahead of schedule."
+        },
+        {
+            "question": "What is a 'contingency reserve' in a project budget?",
+            "options": [
+                "Money set aside for unknown risks.",
+                "Money set aside for identified risks ('known unknowns').",
+                "The total profit expected from the project.",
+                "Funds allocated for scope creep."
+            ],
+            "answer": "Money set aside for identified risks ('known unknowns')."
+        },
+        {
+            "question": "Which type of contract carries the most risk for the buyer?",
+            "options": [
+                "Fixed-Price (FP)",
+                "Cost-Reimbursable (CR)",
+                "Time and Materials (T&M)",
+                "Purchase Order"
+            ],
+            "answer": "Cost-Reimbursable (CR)"
+        },
+        {
+            "question": "What is the primary output of the 'Develop Project Charter' process?",
+            "options": [
+                "Project Management Plan",
+                "Work Breakdown Structure",
+                "Project Charter",
+                "Risk Register"
+            ],
+            "answer": "Project Charter"
+        },
+        {
+            "question": "A project manager is identifying the frequency and format of reports to stakeholders. This is part of which plan?",
+            "options": [
+                "Risk Management Plan",
+                "Scope Management Plan",
+                "Communications Management Plan",
+                "Quality Management Plan"
+            ],
+            "answer": "Communications Management Plan"
+        },
+        {
+            "question": "Which project management methodology is characterized by sequential phases and is best suited for projects with stable requirements?",
+            "options": [
+                "Agile",
+                "Scrum",
+                "Kanban",
+                "Waterfall"
+            ],
+            "answer": "Waterfall"
+        },
+        {
+            "question": "What is the 'float' or 'slack' of a task?",
+            "options": [
+                "The amount of money budgeted for the task.",
+                "The amount of time a task can be delayed without affecting the project finish date.",
+                "The number of resources assigned to the task.",
+                "The time required to complete the task."
+            ],
+            "answer": "The amount of time a task can be delayed without affecting the project finish date."
+        },
+        {
+            "question": "The Agile Manifesto values 'individuals and interactions' over what?",
+            "options": [
+                "Comprehensive documentation",
+                "Contract negotiation",
+                "Following a plan",
+                "Processes and tools"
+            ],
+            "answer": "Processes and tools"
+        },
+        {
+            "question": "What is a 'risk register'?",
+            "options": [
+                "A list of stakeholders and their influence.",
+                "A document that logs all project expenses.",
+                "A living document used to identify, analyze, and manage project risks.",
+                "A schedule of all project team meetings."
+            ],
+            "answer": "A living document used to identify, analyze, and manage project risks."
+        },
+        {
+            "question": "What is the main objective of the project closing phase?",
+            "options": [
+                "To start a new project.",
+                "To formally complete the project or phase and hand off the completed product.",
+                "To conduct a final team performance review.",
+                "To complete all remaining project tasks."
+            ],
+            "answer": "To formally complete the project or phase and hand off the completed product."
+        },
+        {
+            "question": "A key stakeholder is consistently providing negative feedback and is resistant to the project's goals. What is the BEST first step for the project manager?",
+            "options": [
+                "Remove the stakeholder from the project.",
+                "Engage the stakeholder to understand their concerns and expectations.",
+                "Escalate the issue to the project sponsor immediately.",
+                "Continue the project and ignore the feedback."
+            ],
+            "answer": "Engage the stakeholder to understand their concerns and expectations."
+        },
+        {
+            "question": "What is the purpose of a Daily Stand-up or Daily Scrum meeting?",
+            "options": [
+                "A detailed status reporting meeting for senior management.",
+                "A meeting to plan the entire sprint.",
+                "A short, daily meeting for the development team to synchronize activities and create a plan for the next 24 hours.",
+                "A problem-solving session that can last for hours."
+            ],
+            "answer": "A short, daily meeting for the development team to synchronize activities and create a plan for the next 24 hours."
+        },
+        {
+            "question": "Which of the following is an example of a project and not an ongoing operation?",
+            "options": [
+                "Manufacturing a car on an assembly line.",
+                "Providing daily IT help desk support.",
+                "Designing and constructing a new office building.",
+                "Processing monthly payroll."
+            ],
+            "answer": "Designing and constructing a new office building."
+        },
+        {
+            "question": "What is 'gold plating' in project management?",
+            "options": [
+                "Completing the project under budget.",
+                "Delivering a high-quality product.",
+                "Adding extra features or functions to the project's deliverables that were not in the original scope.",
+                "Recognizing the best-performing team member."
+            ],
+            "answer": "Adding extra features or functions to the project's deliverables that were not in the original scope."
+        },
+        {
+            "question": "The process of getting formal acceptance of the completed project scope by the stakeholders is called:",
+            "options": [
+                "Control Scope",
+                "Validate Scope",
+                "Define Scope",
+                "Collect Requirements"
+            ],
+            "answer": "Validate Scope"
+        },
+        {
+            "question": "Which conflict resolution technique is considered a win-win situation?",
+            "options": [
+                "Forcing / Directing",
+                "Smoothing / Accommodating",
+                "Compromising",
+                "Collaborating / Problem Solving"
+            ],
+            "answer": "Collaborating / Problem Solving"
+        },
+        {
+            "question": "What is a 'Statement of Work' (SOW)?",
+            "options": [
+                "A daily task list for the project team.",
+                "An internal document outlining the project manager's responsibilities.",
+                "A narrative description of the products, services, or results to be delivered by a project.",
+                "A summary of the project's final performance."
+            ],
+            "answer": "A narrative description of the products, services, or results to be delivered by a project."
+        },
+        {
+            "question": "What is the primary function of a Project Management Office (PMO)?",
+            "options": [
+                "To directly manage every project in the organization.",
+                "To standardize project-related governance processes and facilitate the sharing of resources, methodologies, tools, and techniques.",
+                "To hire and fire project managers.",
+                "To serve as a temporary office for the project team."
+            ],
+            "answer": "To standardize project-related governance processes and facilitate the sharing of resources, methodologies, tools, and techniques."
+        },
+        {
+            "question": "In Kanban, what is the primary purpose of a 'Work In Progress' (WIP) limit?",
+            "options": [
+                "To ensure everyone is always busy.",
+                "To measure the team's velocity.",
+                "To prevent bottlenecks and improve the flow of work.",
+                "To limit the number of people on a team."
+            ],
+            "answer": "To prevent bottlenecks and improve the flow of work."
+        },
+        {
+            "question": "A project manager is determining the budget by estimating the cost of individual work packages and then rolling them up to a project total. This is known as:",
+            "options": [
+                "Analogous Estimating",
+                "Parametric Estimating",
+                "Top-Down Estimating",
+                "Bottom-Up Estimating"
+            ],
+            "answer": "Bottom-Up Estimating"
+        },
+        {
+            "question": "What does a 'Burndown Chart' in an Agile project show?",
+            "options": [
+                "The amount of budget spent over time.",
+                "The number of risks identified.",
+                "The amount of work remaining versus the time available.",
+                "The team's happiness level throughout the sprint."
+            ],
+            "answer": "The amount of work remaining versus the time available."
+        },
+        {
+            "question": "What is the key difference between a risk and an issue?",
+            "options": [
+                "A risk is a positive event, while an issue is negative.",
+                "A risk is a potential future event that may or may not happen; an issue is a current problem that must be addressed.",
+                "They are the same thing.",
+                "An issue is managed by the team, while a risk is managed by the sponsor."
+            ],
+            "answer": "A risk is a potential future event that may or may not happen; an issue is a current problem that must be addressed."
+        },
+        {
+            "question": "The 'rolling wave planning' technique is an example of:",
+            "options": [
+                "Finalizing the entire plan at the start.",
+                "A form of progressive elaboration where work to be done in the near term is planned in detail, while work in the future is planned at a higher level.",
+                "A risk management technique.",
+                "A method for communicating with stakeholders."
+            ],
+            "answer": "A form of progressive elaboration where work to be done in the near term is planned in detail, while work in the future is planned at a higher level."
+        },
+        {
+            "question": "Which of the following defines the degree of allowable deviation from a project objective?",
+            "options": [
+                "Tolerance",
+                "Scope",
+                "Assumption",
+                "Constraint"
+            ],
+            "answer": "Tolerance"
+        },
+        {
+            "question": "What is the main purpose of a 'Sprint Retrospective' in Scrum?",
+            "options": [
+                "To demonstrate the completed work to stakeholders.",
+                "To plan the work for the next sprint.",
+                "To allow the team to inspect its own process and identify improvements.",
+                "To provide a status update to the Product Owner."
+            ],
+            "answer": "To allow the team to inspect its own process and identify improvements."
+        },
+        {
+            "question": "What is 'crashing' a project schedule?",
+            "options": [
+                "Canceling the project.",
+                "Adding more resources to critical path activities to shorten the project duration.",
+                "Removing tasks from the project scope.",
+                "Delaying the project start date."
+            ],
+            "answer": "Adding more resources to critical path activities to shorten the project duration."
+        },
+        {
+            "question": "Who is primarily responsible for ensuring the project delivers the agreed-upon business value?",
+            "options": [
+                "The Project Manager",
+                "The Project Sponsor",
+                "The Development Team",
+                "The Quality Analyst"
+            ],
+            "answer": "The Project Sponsor"
+        },
+        {
+            "question": "A fishbone diagram (Ishikawa diagram) is a tool used for:",
+            "options": [
+                "Scheduling tasks.",
+                "Root cause analysis.",
+                "Budgeting and cost control.",
+                "Stakeholder analysis."
+            ],
+            "answer": "Root cause analysis."
+        },
+        {
+            "question": "What is 'fast tracking' a project schedule?",
+            "options": [
+                "Performing activities or phases in parallel that would normally be done sequentially.",
+                "Working overtime and on weekends.",
+                "Using more advanced technology to speed up tasks.",
+                "Reducing the project scope to finish earlier."
+            ],
+            "answer": "Performing activities or phases in parallel that would normally be done sequentially."
+        },
+        {
+            "question": "During which process group are the project management plan and project baselines created?",
+            "options": [
+                "Initiating",
+                "Executing",
+                "Monitoring & Controlling",
+                "Planning"
+            ],
+            "answer": "Planning"
+        },
+        {
+            "question": "What does a stakeholder engagement matrix help the project manager to do?",
+            "options": [
+                "Compare the current and desired engagement levels of stakeholders.",
+                "Calculate the financial impact of each stakeholder.",
+                "Assign tasks to different stakeholders.",
+                "Document all communication with stakeholders."
+            ],
+            "answer": "Compare the current and desired engagement levels of stakeholders."
+        }
+    ],
+    "Machine Learning Engineer": [
+        {
+            "question": "What is the primary motivation for using the ReLU activation function over the Sigmoid function in the hidden layers of a deep neural network?",
+            "options": [
+                "It is a linear function, making computation easier.",
+                "It helps mitigate the vanishing gradient problem.",
+                "It can only output positive values.",
+                "It is computationally more expensive but more accurate."
+            ],
+            "answer": "It helps mitigate the vanishing gradient problem."
+        },
+        {
+            "question": "In the context of the bias-variance tradeoff, what does a model with high bias signify?",
+            "options": [
+                "The model is too complex and fits the training data's noise.",
+                "The model is too simple and makes strong assumptions, leading to high error on both training and test data.",
+                "The model performs well on training data but poorly on test data.",
+                "The model's performance is highly sensitive to the specific training data."
+            ],
+            "answer": "The model is too simple and makes strong assumptions, leading to high error on both training and test data."
+        },
+        {
+            "question": "What is the primary difference between L1 (Lasso) and L2 (Ridge) regularization?",
+            "options": [
+                "L1 is used for classification, while L2 is used for regression.",
+                "L1 can shrink some coefficient weights to exactly zero, performing feature selection, while L2 only shrinks them close to zero.",
+                "L2 regularization is less computationally expensive than L1.",
+                "L1 prevents overfitting, whereas L2 does not."
+            ],
+            "answer": "L1 can shrink some coefficient weights to exactly zero, performing feature selection, while L2 only shrinks them close to zero."
+        },
+        {
+            "question": "Which of the following evaluation metrics is most appropriate for a binary classification task with a highly imbalanced dataset?",
+            "options": [
+                "Accuracy",
+                "Mean Squared Error (MSE)",
+                "F1-Score or AUC-PR",
+                "R-squared"
+            ],
+            "answer": "F1-Score or AUC-PR"
+        },
+        {
+            "question": "What is the main purpose of a pooling layer in a Convolutional Neural Network (CNN)?",
+            "options": [
+                "To apply a non-linear activation function to the feature map.",
+                "To reduce the spatial dimensions of the feature map and create translational invariance.",
+                "To extract features using learnable filters.",
+                "To increase the depth of the network."
+            ],
+            "answer": "To reduce the spatial dimensions of the feature map and create translational invariance."
+        },
+        {
+            "question": "Which algorithm is NOT a supervised learning algorithm?",
+            "options": [
+                "Linear Regression",
+                "K-Means Clustering",
+                "Support Vector Machine (SVM)",
+                "Random Forest"
+            ],
+            "answer": "K-Means Clustering"
+        },
+        {
+            "question": "In MLOps, what is 'concept drift'?",
+            "options": [
+                "A change in the statistical properties of the input variables.",
+                "A bug in the model deployment code.",
+                "A change in the relationship between the input variables and the target variable over time.",
+                "The process of versioning the model's source code."
+            ],
+            "answer": "A change in the relationship between the input variables and the target variable over time."
+        },
+        {
+            "question": "What is the primary goal of Principal Component Analysis (PCA)?",
+            "options": [
+                "To cluster data points into distinct groups.",
+                "To classify data into predefined categories.",
+                "To reduce the dimensionality of the data while preserving the maximum amount of variance.",
+                "To build a predictive regression model."
+            ],
+            "answer": "To reduce the dimensionality of the data while preserving the maximum amount of variance."
+        },
+        {
+            "question": "What does a 'confusion matrix' help you visualize?",
+            "options": [
+                "The correlation between different features.",
+                "The performance of a classification model by showing true positives, true negatives, false positives, and false negatives.",
+                "The loss function of a model over epochs.",
+                "The distribution of data in different clusters."
+            ],
+            "answer": "The performance of a classification model by showing true positives, true negatives, false positives, and false negatives."
+        },
+        {
+            "question": "What is a key advantage of the Adam optimizer over standard Stochastic Gradient Descent (SGD)?",
+            "options": [
+                "It is guaranteed to find the global minimum in non-convex problems.",
+                "It uses less memory than SGD.",
+                "It does not require gradients to be computed.",
+                "It computes adaptive learning rates for each parameter, often leading to faster convergence."
+            ],
+            "answer": "It computes adaptive learning rates for each parameter, often leading to faster convergence."
+        },
+        {
+            "question": "Which technique is commonly used to handle categorical features with a large number of unique values (high cardinality)?",
+            "options": [
+                "One-Hot Encoding",
+                "Target Encoding or Hashing",
+                "Label Encoding",
+                "Dropping the feature"
+            ],
+            "answer": "Target Encoding or Hashing"
+        },
+        {
+            "question": "What is 'backpropagation' in the context of neural networks?",
+            "options": [
+                "The process of feeding input data forward through the network.",
+                "An algorithm for efficiently calculating the gradients of the loss function with respect to the network's weights.",
+                "A method for initializing the weights of the network.",
+                "A technique for reducing the number of layers in a network."
+            ],
+            "answer": "An algorithm for efficiently calculating the gradients of the loss function with respect to the network's weights."
+        },
+        {
+            "question": "What problem are LSTMs (Long Short-Term Memory networks) specifically designed to solve in standard RNNs?",
+            "options": [
+                "Overfitting",
+                "Slow computation speed",
+                "Vanishing and exploding gradients",
+                "Inability to process sequential data"
+            ],
+            "answer": "Vanishing and exploding gradients"
+        },
+        {
+            "question": "What is the purpose of cross-validation?",
+            "options": [
+                "To make the model training process faster.",
+                "To provide a more robust estimate of a model's performance on unseen data by training and testing on different subsets of the data.",
+                "To automatically select the best features for a model.",
+                "To visualize high-dimensional data."
+            ],
+            "answer": "To provide a more robust estimate of a model's performance on unseen data by training and testing on different subsets of the data."
+        },
+        {
+            "question": "What does the 'AUC' in 'AUC-ROC curve' stand for?",
+            "options": [
+                "Area Under the Curve",
+                "Area Under the Correlation",
+                "Average Unseen Classification",
+                "Accurate Unbiased Curve"
+            ],
+            "answer": "Area Under the Curve"
+        },
+        {
+            "question": "Which of the following is a core principle of ensemble methods like Random Forest and Gradient Boosting?",
+            "options": [
+                "Using a single, highly complex model to make predictions.",
+                "Combining the predictions of multiple weaker models to produce a more accurate and robust prediction.",
+                "Focusing exclusively on linear relationships in the data.",
+                "Reducing the dimensionality of the data before training."
+            ],
+            "answer": "Combining the predictions of multiple weaker models to produce a more accurate and robust prediction."
+        },
+        {
+            "question": "In Natural Language Processing (NLP), what is TF-IDF used for?",
+            "options": [
+                "To represent words as dense vectors.",
+                "To classify text into different categories.",
+                "To evaluate the numerical importance of a word in a document relative to a collection of documents (corpus).",
+                "To parse the grammatical structure of a sentence."
+            ],
+            "answer": "To evaluate the numerical importance of a word in a document relative to a collection of documents (corpus)."
+        },
+        {
+            "question": "What is 'transfer learning'?",
+            "options": [
+                "Transferring a trained model from a CPU to a GPU.",
+                "Using a pre-trained model on a new but related problem to leverage the knowledge it has already learned.",
+                "A technique for compressing large models.",
+                "A method for training models on multiple machines."
+            ],
+            "answer": "Using a pre-trained model on a new but related problem to leverage the knowledge it has already learned."
+        },
+        {
+            "question": "How does a Decision Tree handle numerical features?",
+            "options": [
+                "It converts them to categorical features using binning.",
+                "It finds the best split point (e.g., 'age < 25') that maximizes information gain or minimizes impurity.",
+                "It ignores them completely.",
+                "It standardizes them to have a mean of 0 and a standard deviation of 1."
+            ],
+            "answer": "It finds the best split point (e.g., 'age < 25') that maximizes information gain or minimizes impurity."
+        },
+        {
+            "question": "What is the 'kernel trick' in Support Vector Machines (SVMs)?",
+            "options": [
+                "A method for speeding up the training of SVMs.",
+                "A way to map data to a higher-dimensional space to make it linearly separable, without explicitly computing the coordinates in that space.",
+                "A technique for selecting the best features for an SVM.",
+                "A method for handling missing data before training an SVM."
+            ],
+            "answer": "A way to map data to a higher-dimensional space to make it linearly separable, without explicitly computing the coordinates in that space."
+        },
+        {
+            "question": "Which statement best describes Gradient Boosting?",
+            "options": [
+                "It trains multiple models in parallel on different subsets of the data.",
+                "It is an unsupervised learning algorithm for clustering.",
+                "It builds models sequentially, with each new model attempting to correct the errors of the previous one.",
+                "It is a type of deep neural network."
+            ],
+            "answer": "It builds models sequentially, with each new model attempting to correct the errors of the previous one."
+        },
+        {
+            "question": "What is 'one-hot encoding'?",
+            "options": [
+                "A technique for feature scaling.",
+                "A method for representing categorical variables as binary vectors.",
+                "A way to handle missing numerical data.",
+                "A regularization technique."
+            ],
+            "answer": "A method for representing categorical variables as binary vectors."
+        },
+        {
+            "question": "What is the primary role of a 'learning rate' in model training?",
+            "options": [
+                "It determines the number of layers in a neural network.",
+                "It determines the size of the steps taken during gradient descent to update the model's weights.",
+                "It determines the batch size for training.",
+                "It measures the final accuracy of the model."
+            ],
+            "answer": "It determines the size of the steps taken during gradient descent to update the model's weights."
+        },
+        {
+            "question": "In Reinforcement Learning, what is the main goal of an 'agent'?",
+            "options": [
+                "To classify data provided by the environment.",
+                "To learn a policy that maximizes the cumulative reward from an environment.",
+                "To minimize the variance in the training data.",
+                "To predict the next state of the environment."
+            ],
+            "answer": "To learn a policy that maximizes the cumulative reward from an environment."
+        },
+        {
+            "question": "How would you typically deal with a dataset where the training set is very large, but the test set is small?",
+            "options": [
+                "Trust the test set results completely.",
+                "Use K-Fold cross-validation on the training set to get a better estimate of performance.",
+                "Train the model on the test set instead.",
+                "Combine the train and test sets for training."
+            ],
+            "answer": "Use K-Fold cross-validation on the training set to get a better estimate of performance."
+        },
+        {
+            "question": "What does the 'self-attention mechanism' in a Transformer model allow it to do?",
+            "options": [
+                "Pay attention to only the last word in a sentence.",
+                "Weigh the importance of different words in the input sequence when processing a specific word.",
+                "Reduce the model size by half.",
+                "Focus only on nouns and verbs in a sentence."
+            ],
+            "answer": "Weigh the importance of different words in the input sequence when processing a specific word."
+        },
+        {
+            "question": "What is the difference between standardization and normalization?",
+            "options": [
+                "They are the same thing.",
+                "Standardization rescales data to have a mean of 0 and standard deviation of 1, while normalization rescales it to a range of [0, 1].",
+                "Normalization is used for numerical data, while standardization is for categorical data.",
+                "Standardization rescales data to a range of [0, 1], while normalization rescales it to have a mean of 0 and standard deviation of 1."
+            ],
+            "answer": "Standardization rescales data to have a mean of 0 and standard deviation of 1, while normalization rescales it to a range of [0, 1]."
+        },
+        {
+            "question": "What is a 'hyperparameter'?",
+            "options": [
+                "A parameter that the model learns during training, such as a weight in a neural network.",
+                "A parameter that is set before the training process begins, such as the learning rate or the number of trees in a random forest.",
+                "A metric used to evaluate the model's performance.",
+                "The output prediction of the model."
+            ],
+            "answer": "A parameter that is set before the training process begins, such as the learning rate or the number of trees in a random forest."
+        },
+        {
+            "question": "What type of problem is 'predicting the price of a house based on its features'?",
+            "options": [
+                "Classification",
+                "Clustering",
+                "Regression",
+                "Reinforcement Learning"
+            ],
+            "answer": "Regression"
+        },
+        {
+            "question": "Which of these is a significant disadvantage of using a K-Means clustering algorithm?",
+            "options": [
+                "It is very slow on large datasets.",
+                "It requires the number of clusters (K) to be specified beforehand.",
+                "It can only be used for supervised learning tasks.",
+                "It cannot handle numerical data."
+            ],
+            "answer": "It requires the number of clusters (K) to be specified beforehand."
+        },
+        {
+            "question": "In the context of Bayes' Theorem, what does the 'prior' probability represent?",
+            "options": [
+                "The probability of the evidence, given the hypothesis is true.",
+                "The probability of the hypothesis after observing the evidence.",
+                "The initial belief in the probability of a hypothesis before observing any evidence.",
+                "The probability of the evidence itself."
+            ],
+            "answer": "The initial belief in the probability of a hypothesis before observing any evidence."
+        },
+        {
+            "question": "What is 'dropout' in a neural network?",
+            "options": [
+                "A method for removing layers from the network to speed up training.",
+                "A regularization technique where randomly selected neurons are ignored during training to prevent co-adaptation.",
+                "A sign that the model has finished training.",
+                "An optimizer similar to Adam."
+            ],
+            "answer": "A regularization technique where randomly selected neurons are ignored during training to prevent co-adaptation."
+        },
+        {
+            "question": "What is a Generative Adversarial Network (GAN) composed of?",
+            "options": [
+                "A single, large convolutional network.",
+                "An encoder and a decoder.",
+                "Two neural networks, a Generator and a Discriminator, that compete with each other.",
+                "A recurrent neural network and a feedforward network."
+            ],
+            "answer": "Two neural networks, a Generator and a Discriminator, that compete with each other."
+        },
+        {
+            "question": "If you increase the value of 'k' in a k-Nearest Neighbors (k-NN) algorithm, what is the likely effect?",
+            "options": [
+                "The decision boundary will become more complex, increasing variance.",
+                "The decision boundary will become smoother, increasing bias.",
+                "The model will train faster.",
+                "The model will become a linear model."
+            ],
+            "answer": "The decision boundary will become smoother, increasing bias."
+        },
+        {
+            "question": "Why is it important to split data into training, validation, and test sets?",
+            "options": [
+                "To use more data for training.",
+                "The validation set is used for hyperparameter tuning, and the test set provides an unbiased final evaluation of the model.",
+                "It is a convention with no practical purpose.",
+                "To train three different models."
+            ],
+            "answer": "The validation set is used for hyperparameter tuning, and the test set provides an unbiased final evaluation of the model."
+        },
+        {
+            "question": "What is the 'curse of dimensionality'?",
+            "options": [
+                "The fact that deep neural networks require high-dimensional GPUs.",
+                "The phenomenon where data becomes increasingly sparse in high-dimensional spaces, making algorithms like k-NN less effective.",
+                "A term for when a model has too many parameters.",
+                "The challenge of visualizing data with more than three dimensions."
+            ],
+            "answer": "The phenomenon where data becomes increasingly sparse in high-dimensional spaces, making algorithms like k-NN less effective."
+        },
+        {
+            "question": "Which loss function is typically used for a multi-class classification problem?",
+            "options": [
+                "Mean Squared Error (MSE)",
+                "Binary Cross-Entropy",
+                "Categorical Cross-Entropy",
+                "Mean Absolute Error (MAE)"
+            ],
+            "answer": "Categorical Cross-Entropy"
+        },
+        {
+            "question": "In NLP, what is a word embedding?",
+            "options": [
+                "A rule-based system for understanding grammar.",
+                "A learned, dense vector representation of a word, where words with similar meanings have similar representations.",
+                "A count of how many times a word appears in the corpus.",
+                "The process of splitting text into words (tokenization)."
+            ],
+            "answer": "A learned, dense vector representation of a word, where words with similar meanings have similar representations."
+        },
+        {
+            "question": "When deploying a model as a REST API, what is the primary purpose of containerization with Docker?",
+            "options": [
+                "To make the model run faster.",
+                "To package the model, its dependencies, and the serving code into a standardized, isolated, and portable unit.",
+                "To automatically tune the model's hyperparameters.",
+                "To write the model's code in a different programming language."
+            ],
+            "answer": "To package the model, its dependencies, and the serving code into a standardized, isolated, and portable unit."
+        },
+        {
+            "question": "A model has 99% accuracy on a dataset where 99% of samples belong to Class A. Why is accuracy a poor metric here?",
+            "options": [
+                "Accuracy is never a good metric.",
+                "The model could achieve high accuracy by simply always predicting Class A, ignoring the minority class completely.",
+                "The dataset is too small for accuracy to be meaningful.",
+                "Accuracy is only for regression problems."
+            ],
+            "answer": "The model could achieve high accuracy by simply always predicting Class A, ignoring the minority class completely."
+        },
+        {
+            "question": "What is a major benefit of using a Gradient Boosting model like XGBoost over a Random Forest?",
+            "options": [
+                "XGBoost is less prone to overfitting.",
+                "XGBoost is easier to tune.",
+                "XGBoost often achieves higher performance due to its sequential, error-correcting nature.",
+                "XGBoost trains faster than Random Forest."
+            ],
+            "answer": "XGBoost often achieves higher performance due to its sequential, error-correcting nature."
+        },
+        {
+            "question": "What does a Recall score of 1.0 in a binary classification model signify?",
+            "options": [
+                "The model has correctly identified every single positive sample.",
+                "The model has made no incorrect positive predictions.",
+                "The model is 100% accurate overall.",
+                "The model has correctly identified every single negative sample."
+            ],
+            "answer": "The model has correctly identified every single positive sample."
+        },
+        {
+            "question": "What is the purpose of using a 'batch' of data during neural network training?",
+            "options": [
+                "To train the model on all data at once.",
+                "To process a subset of the training data at a time to make the gradient updates more stable and computationally efficient.",
+                "To validate the model's performance.",
+                "To reduce the number of epochs needed for training."
+            ],
+            "answer": "To process a subset of the training data at a time to make the gradient updates more stable and computationally efficient."
+        },
+        {
+            "question": "Which of these is a density-based clustering algorithm, suitable for finding non-spherical clusters?",
+            "options": [
+                "K-Means",
+                "Hierarchical Clustering",
+                "DBSCAN",
+                "Gaussian Mixture Model"
+            ],
+            "answer": "DBSCAN"
+        },
+        {
+            "question": "What is 'data augmentation' in the context of computer vision?",
+            "options": [
+                "Buying more data to improve the model.",
+                "Artificially increasing the size of the training dataset by creating modified copies of existing images (e.g., rotating, flipping, cropping).",
+                "Labeling the training data.",
+                "Using a larger model."
+            ],
+            "answer": "Artificially increasing the size of the training dataset by creating modified copies of existing images (e.g., rotating, flipping, cropping)."
+        },
+        {
+            "question": "In a logistic regression model, what does the sigmoid function do?",
+            "options": [
+                "It calculates the feature importance.",
+                "It maps the linear output of the model to a probability between 0 and 1.",
+                "It regularizes the model to prevent overfitting.",
+                "It selects the best features for the model."
+            ],
+            "answer": "It maps the linear output of the model to a probability between 0 and 1."
+        },
+        {
+            "question": "What is the difference between model 'parameters' and 'hyperparameters'?",
+            "options": [
+                "They are the same.",
+                "Parameters are learned from the data during training (e.g., weights), while hyperparameters are set before training (e.g., learning rate).",
+                "Hyperparameters are learned during training, while parameters are set before.",
+                "Parameters are only found in deep learning, while hyperparameters are in all ML models."
+            ],
+            "answer": "Parameters are learned from the data during training (e.g., weights), while hyperparameters are set before training (e.g., learning rate)."
+        },
+        {
+            "question": "What is a key challenge that Recurrent Neural Networks (RNNs) can handle better than standard feedforward networks?",
+            "options": [
+                "Image classification",
+                "Processing sequential data, such as time series or natural language.",
+                "Clustering of unstructured data.",
+                "Dimensionality reduction."
+            ],
+            "answer": "Processing sequential data, such as time series or natural language."
+        },
+        {
+            "question": "What is the primary function of a feature store in an MLOps pipeline?",
+            "options": [
+                "To store trained machine learning models.",
+                "To act as a central, versioned repository for features, ensuring consistency between training and serving.",
+                "To visualize model performance metrics.",
+                "To store the raw, unprocessed data."
+            ],
+            "answer": "To act as a central, versioned repository for features, ensuring consistency between training and serving."
+        },
+        {
+            "question": "What does a Precision score measure?",
+            "options": [
+                "Of all the actual positive samples, how many did the model correctly identify?",
+                "The overall accuracy of the model.",
+                "The ratio of correctly predicted positive observations to the total predicted positive observations.",
+                "The harmonic mean of recall and accuracy."
+            ],
+            "answer": "The ratio of correctly predicted positive observations to the total predicted positive observations."
+        }
+    ],
+    "Frontend Developer": [
+        {
+            "question": "Which of the following CSS selectors has the highest specificity?",
+            "options": [
+                "A class selector, e.g., `.my-class`",
+                "An ID selector, e.g., `#my-id`",
+                "An inline style, e.g., `style=\"color: red;\"`",
+                "A type selector, e.g., `div`"
+            ],
+            "answer": "An inline style, e.g., `style=\"color: red;\"`"
+        },
+        {
+            "question": "What is the primary difference between `let` and `var` in JavaScript?",
+            "options": [
+                "`let` is function-scoped, while `var` is block-scoped.",
+                "`let` is block-scoped, while `var` is function-scoped.",
+                "`var` cannot be reassigned, while `let` can.",
+                "There is no difference in modern browsers."
+            ],
+            "answer": "`let` is block-scoped, while `var` is function-scoped."
+        },
+        {
+            "question": "In CSS Flexbox, what does the `justify-content` property control?",
+            "options": [
+                "The alignment of items along the cross axis.",
+                "The alignment of items along the main axis.",
+                "The direction of the flex container.",
+                "The spacing between flex lines."
+            ],
+            "answer": "The alignment of items along the main axis."
+        },
+        {
+            "question": "What is the purpose of the `async` keyword in a JavaScript function declaration?",
+            "options": [
+                "It makes the function execute synchronously.",
+                "It indicates that the function will always return a Promise and allows `await` to be used inside it.",
+                "It makes the function a callback.",
+                "It automatically adds error handling to the function."
+            ],
+            "answer": "It indicates that the function will always return a Promise and allows `await` to be used inside it."
+        },
+        {
+            "question": "In React, how should you properly update a component's state?",
+            "options": [
+                "By directly modifying `this.state`, e.g., `this.state.key = 'value'`.",
+                "By calling the `this.setState()` method.",
+                "By calling a method named `this.updateState()`.",
+                "By re-assigning the entire state object, e.g., `this.state = { ... }`."
+            ],
+            "answer": "By calling the `this.setState()` method."
+        },
+        {
+            "question": "What is the box model in CSS?",
+            "options": [
+                "A model for laying out elements in a grid.",
+                "A convention that describes how elements are displayed as rectangular boxes with content, padding, border, and margin.",
+                "A 3D model used for web animations.",
+                "A model for handling user input events."
+            ],
+            "answer": "A convention that describes how elements are displayed as rectangular boxes with content, padding, border, and margin."
+        },
+        {
+            "question": "What does the `Array.prototype.map()` method do in JavaScript?",
+            "options": [
+                "It modifies the original array by applying a function to each element.",
+                "It returns a new array populated with the results of calling a provided function on every element in the calling array.",
+                "It filters the array to only include elements that pass a test.",
+                "It checks if at least one element in the array passes a test."
+            ],
+            "answer": "It returns a new array populated with the results of calling a provided function on every element in the calling array."
+        },
+        {
+            "question": "What is the primary benefit of React's Virtual DOM?",
+            "options": [
+                "It makes the website more secure against XSS attacks.",
+                "It allows writing HTML directly inside JavaScript files.",
+                "It minimizes expensive direct manipulations of the real DOM by batching updates, which improves performance.",
+                "It is a completely separate DOM that replaces the browser's DOM."
+            ],
+            "answer": "It minimizes expensive direct manipulations of the real DOM by batching updates, which improves performance."
+        },
+        {
+            "question": "What is the difference between the `==` and `===` operators in JavaScript?",
+            "options": [
+                "`==` is for assignment, `===` is for comparison.",
+                "They are identical.",
+                "`===` checks for equality of value and type, while `==` performs type coercion before checking for value equality.",
+                "`==` is the newer, stricter version of `===`."
+            ],
+            "answer": "`===` checks for equality of value and type, while `==` performs type coercion before checking for value equality."
+        },
+        {
+            "question": "What is a 'closure' in JavaScript?",
+            "options": [
+                "A special syntax for closing a `for` loop.",
+                "A function that has access to its outer function's scope, even after the outer function has returned.",
+                "A built-in method to close a browser window.",
+                "An object that has been permanently closed to prevent modifications."
+            ],
+            "answer": "A function that has access to its outer function's scope, even after the outer function has returned."
+        },
+        {
+            "question": "In the React `useEffect` hook, what is the purpose of the dependency array?",
+            "options": [
+                "It lists all the props the component can accept.",
+                "It is where you define local state variables for the effect.",
+                "It controls when the effect function is re-executed by running it only if a value in the array has changed since the last render.",
+                "It is an array of external libraries the effect depends on."
+            ],
+            "answer": "It controls when the effect function is re-executed by running it only if a value in the array has changed since the last render."
+        },
+        {
+            "question": "What is the difference between `localStorage` and `sessionStorage`?",
+            "options": [
+                "`localStorage` is faster than `sessionStorage`.",
+                "`localStorage` data persists until explicitly deleted, while `sessionStorage` data is cleared when the page session ends (i.e., the tab is closed).",
+                "`localStorage` can store more data than `sessionStorage`.",
+                "`sessionStorage` is secure, while `localStorage` is not."
+            ],
+            "answer": "`localStorage` data persists until explicitly deleted, while `sessionStorage` data is cleared when the page session ends (i.e., the tab is closed)."
+        },
+        {
+            "question": "What is the purpose of the `<!DOCTYPE html>` declaration?",
+            "options": [
+                "It is a comment and is ignored by the browser.",
+                "It tells the browser to load the page in XHTML mode.",
+                "It is an instruction to the web browser about what version of HTML the page is written in, which ensures the page renders in 'standards mode'.",
+                "It links the HTML document to a CSS stylesheet."
+            ],
+            "answer": "It is an instruction to the web browser about what version of HTML the page is written in, which ensures the page renders in 'standards mode'."
+        },
+        {
+            "question": "In CSS, what is the difference between `display: none;` and `visibility: hidden;`?",
+            "options": [
+                "They are identical in function.",
+                "`display: none;` removes the element from the document flow, while `visibility: hidden;` hides the element but it still occupies space in the layout.",
+                "`visibility: hidden;` removes the element, while `display: none;` only hides it.",
+                "`display: none;` works on all elements, while `visibility: hidden;` only works on images."
+            ],
+            "answer": "`display: none;` removes the element from the document flow, while `visibility: hidden;` hides the element but it still occupies space in the layout."
+        },
+        {
+            "question": "What does 'prop drilling' mean in React?",
+            "options": [
+                "A performance optimization technique.",
+                "The process of passing props down from a parent component to a deeply nested child component.",
+                "A state management pattern using the Context API.",
+                "An error that occurs when a prop is not defined."
+            ],
+            "answer": "The process of passing props down from a parent component to a deeply nested child component."
+        },
+        {
+            "question": "What is event bubbling in the context of the DOM?",
+            "options": [
+                "An event that is triggered on the outermost element first, then works its way inward.",
+                "An event that is triggered on the innermost element first and then propagates up to its parent elements.",
+                "A memory leak related to event listeners.",
+                "A way to create custom events."
+            ],
+            "answer": "An event that is triggered on the innermost element first and then propagates up to its parent elements."
+        },
+        {
+            "question": "What is the primary use case for the `defer` attribute on a `<script>` tag?",
+            "options": [
+                "To prevent the script from executing at all.",
+                "To execute the script after the HTML document has been fully parsed, but before the `DOMContentLoaded` event.",
+                "To execute the script as soon as it's downloaded, pausing HTML parsing.",
+                "To load the script from a different domain."
+            ],
+            "answer": "To execute the script after the HTML document has been fully parsed, but before the `DOMContentLoaded` event."
+        },
+        {
+            "question": "What is the purpose of ARIA (Accessible Rich Internet Applications) attributes in HTML?",
+            "options": [
+                "To style HTML elements using JavaScript.",
+                "To provide additional information to assistive technologies, making web applications more accessible for people with disabilities.",
+                "To create animations and transitions.",
+                "To define the area of the page that is visible to the user."
+            ],
+            "answer": "To provide additional information to assistive technologies, making web applications more accessible for people with disabilities."
+        },
+        {
+            "question": "What is the key difference between `rem` and `em` units in CSS?",
+            "options": [
+                "`rem` is always larger than `em`.",
+                "`rem` is relative to the font-size of the root (`html`) element, while `em` is relative to the font-size of its parent element.",
+                "`em` is relative to the root element, while `rem` is relative to the parent element.",
+                "`rem` is a fixed unit, while `em` is a relative unit."
+            ],
+            "answer": "`rem` is relative to the font-size of the root (`html`) element, while `em` is relative to the font-size of its parent element."
+        },
+        {
+            "question": "What is a 'Promise' in JavaScript?",
+            "options": [
+                "A guarantee that a function will not throw an error.",
+                "A special type of variable that cannot be changed.",
+                "An object representing the eventual completion or failure of an asynchronous operation.",
+                "A synchronous function that returns a value immediately."
+            ],
+            "answer": "An object representing the eventual completion or failure of an asynchronous operation."
+        },
+        {
+            "question": "In React, what are 'keys' used for when rendering a list of elements?",
+            "options": [
+                "To provide a unique CSS class for styling.",
+                "To help React identify which items have changed, are added, or are removed, which optimizes rendering.",
+                "To use as the `id` attribute on the HTML element.",
+                "To sort the list elements alphabetically."
+            ],
+            "answer": "To help React identify which items have changed, are added, or are removed, which optimizes rendering."
+        },
+        {
+            "question": "What does CSS Grid's `fr` unit stand for?",
+            "options": [
+                "Frame rate",
+                "Fixed ratio",
+                "A fractional unit of the available space in the grid container.",
+                "French unit"
+            ],
+            "answer": "A fractional unit of the available space in the grid container."
+        },
+        {
+            "question": "What is 'destructuring' in ES6?",
+            "options": [
+                "A way to break down a complex data structure into smaller, simpler parts.",
+                "A syntax that makes it possible to unpack values from arrays, or properties from objects, into distinct variables.",
+                "A method for destroying objects to free up memory.",
+                "A way to debug code."
+            ],
+            "answer": "A syntax that makes it possible to unpack values from arrays, or properties from objects, into distinct variables."
+        },
+        {
+            "question": "What is the purpose of a web bundler like Webpack or Vite?",
+            "options": [
+                "To format JavaScript code according to a style guide.",
+                "To check for syntax errors in the code.",
+                "To bundle multiple JavaScript files, CSS, and other assets into a few optimized files for the browser.",
+                "To run a local development server."
+            ],
+            "answer": "To bundle multiple JavaScript files, CSS, and other assets into a few optimized files for the browser."
+        },
+        {
+            "question": "In CSS, what is the difference between `position: absolute` and `position: relative`?",
+            "options": [
+                "There is no difference.",
+                "An element with `position: relative` is positioned relative to its normal position, while an element with `position: absolute` is positioned relative to its nearest positioned ancestor.",
+                "`position: absolute` elements are always visible, while `position: relative` elements are not.",
+                "An element with `position: absolute` is positioned relative to its normal position, while `position: relative` is positioned relative to the viewport."
+            ],
+            "answer": "An element with `position: relative` is positioned relative to its normal position, while an element with `position: absolute` is positioned relative to its nearest positioned ancestor."
+        },
+        {
+            "question": "What is the JavaScript 'event loop'?",
+            "options": [
+                "A `for` loop that iterates over DOM events.",
+                "A browser feature for creating smooth animations.",
+                "A concurrency model that allows JavaScript to perform non-blocking operations by offloading operations and putting their callbacks in a queue to be executed later.",
+                "A debugging tool for tracking events."
+            ],
+            "answer": "A concurrency model that allows JavaScript to perform non-blocking operations by offloading operations and putting their callbacks in a queue to be executed later."
+        },
+        {
+            "question": "What are React Hooks?",
+            "options": [
+                "A way to add event listeners to components.",
+                "Functions that let you 'hook into' React state and lifecycle features from functional components.",
+                "A special type of component for handling user input.",
+                "A syntax for importing external libraries into React."
+            ],
+            "answer": "Functions that let you 'hook into' React state and lifecycle features from functional components."
+        },
+        {
+            "question": "What is the main purpose of semantic HTML tags like `<article>`, `<section>`, and `<nav>`?",
+            "options": [
+                "They are required for the page to be valid HTML5.",
+                "They provide styling to the content by default.",
+                "They describe the meaning and structure of the content, which improves accessibility and SEO.",
+                "They are interchangeable with `<div>` tags and have no special meaning."
+            ],
+            "answer": "They describe the meaning and structure of the content, which improves accessibility and SEO."
+        },
+        {
+            "question": "What is the difference between `null` and `undefined` in JavaScript?",
+            "options": [
+                "They are strictly equal (`===`).",
+                "`null` is an intentional absence of any object value, while `undefined` means a variable has been declared but has not yet been assigned a value.",
+                "`undefined` is an intentional absence of value, while `null` means a variable has not been assigned a value.",
+                "`null` is a number, while `undefined` is an object."
+            ],
+            "answer": "`null` is an intentional absence of any object value, while `undefined` means a variable has been declared but has not yet been assigned a value."
+        },
+        {
+            "question": "What does the 'C' in CORS stand for?",
+            "options": [
+                "Cascading",
+                "Content",
+                "Cross-Origin",
+                "Client"
+            ],
+            "answer": "Cross-Origin"
+        },
+        {
+            "question": "What does the `Array.prototype.reduce()` method do?",
+            "options": [
+                "It reduces the number of elements in an array to one.",
+                "It executes a 'reducer' function on each element of the array, resulting in a single output value.",
+                "It filters out unwanted elements from an array.",
+                "It reverses the order of the elements in an array."
+            ],
+            "answer": "It executes a 'reducer' function on each element of the array, resulting in a single output value."
+        },
+        {
+            "question": "In React, what is the difference between state and props?",
+            "options": [
+                "State is passed down from parent to child, while props are managed within the component.",
+                "Props are managed within a component and can be changed, while state is passed to the component and is immutable.",
+                "State and props are the same thing.",
+                "Props are passed to a component from its parent and are immutable, while state is managed within the component and can be changed."
+            ],
+            "answer": "Props are passed to a component from its parent and are immutable, while state is managed within the component and can be changed."
+        },
+        {
+            "question": "What is 'hoisting' in JavaScript?",
+            "options": [
+                "A technique for optimizing JavaScript performance.",
+                "A behavior where variable and function declarations are moved to the top of their containing scope during the compilation phase.",
+                "A CSS property for lifting elements on the z-axis.",
+                "An error that occurs when a variable is used before it is declared."
+            ],
+            "answer": "A behavior where variable and function declarations are moved to the top of their containing scope during the compilation phase."
+        },
+        {
+            "question": "What is the purpose of the `alt` attribute on an `<img>` tag?",
+            "options": [
+                "To provide a title for the image that appears on hover.",
+                "To provide alternative text for an image if it cannot be displayed, which is crucial for screen readers and SEO.",
+                "To specify the alignment of the image.",
+                "To link the image to another URL."
+            ],
+            "answer": "To provide alternative text for an image if it cannot be displayed, which is crucial for screen readers and SEO."
+        },
+        {
+            "question": "What is a CSS pseudo-class?",
+            "options": [
+                "A CSS class that does not exist in the HTML.",
+                "A keyword added to a selector that specifies a special state of the selected element(s), such as `:hover` or `:focus`.",
+                "A way to style a specific part of a selected element, such as `::before` or `::after`.",
+                "A class that is automatically generated by JavaScript."
+            ],
+            "answer": "A keyword added to a selector that specifies a special state of the selected element(s), such as `:hover` or `:focus`."
+        },
+        {
+            "question": "What is JSX?",
+            "options": [
+                "A templating language that is a superset of JavaScript.",
+                "A syntax extension for JavaScript that looks similar to HTML and is typically used with React.",
+                "A special version of JavaScript created by Facebook.",
+                "A library for making AJAX requests."
+            ],
+            "answer": "A syntax extension for JavaScript that looks similar to HTML and is typically used with React."
+        },
+        {
+            "question": "What is 'throttling' in the context of JavaScript events?",
+            "options": [
+                "Preventing an event from firing at all.",
+                "Delaying the execution of a function until a certain amount of time has passed without it being called.",
+                "Guaranteeing that a function is only executed at most once every specified amount of time.",
+                "A security measure to prevent rapid form submissions."
+            ],
+            "answer": "Guaranteeing that a function is only executed at most once every specified amount of time."
+        },
+        {
+            "question": "What is the `this` keyword in JavaScript?",
+            "options": [
+                "It always refers to the global window object.",
+                "It refers to the function in which it is used.",
+                "Its value is determined by how a function is called. In an object method, it refers to the object; alone, it refers to the global object.",
+                "It is a reference to the previous function in the call stack."
+            ],
+            "answer": "Its value is determined by how a function is called. In an object method, it refers to the object; alone, it refers to the global object."
+        },
+        {
+            "question": "What is the role of `package.json` in a Node.js/frontend project?",
+            "options": [
+                "It contains the main JavaScript source code for the application.",
+                "It is a JSON file that holds metadata about the project, such as its name, version, and dependencies.",
+                "It is a configuration file for the webpack bundler.",
+                "It locks the specific versions of the project's dependencies."
+            ],
+            "answer": "It is a JSON file that holds metadata about the project, such as its name, version, and dependencies."
+        },
+        {
+            "question": "Which HTTP request method is idempotent?",
+            "options": [
+                "POST",
+                "PATCH",
+                "PUT",
+                "CONNECT"
+            ],
+            "answer": "PUT"
+        },
+        {
+            "question": "What is the 'critical rendering path'?",
+            "options": [
+                "The most important JavaScript function in an application.",
+                "The sequence of steps the browser goes through to convert HTML, CSS, and JavaScript into pixels on the screen.",
+                "A debugging tool for rendering issues.",
+                "The network path taken by critical assets like fonts and images."
+            ],
+            "answer": "The sequence of steps the browser goes through to convert HTML, CSS, and JavaScript into pixels on the screen."
+        },
+        {
+            "question": "In CSS Grid, what is the purpose of the `grid-template-areas` property?",
+            "options": [
+                "To define the number of columns and rows in the grid.",
+                "To specify the size of the gap between grid cells.",
+                "To create a visual layout of the grid by naming grid areas and placing them in a template.",
+                "To align items within a grid area."
+            ],
+            "answer": "To create a visual layout of the grid by naming grid areas and placing them in a template."
+        },
+        {
+            "question": "What is a Higher-Order Component (HOC) in React?",
+            "options": [
+                "A component that is visually higher on the page.",
+                "A function that takes a component and returns a new component with additional props or logic.",
+                "A component that renders other components.",
+                "The main `App` component in a React application."
+            ],
+            "answer": "A function that takes a component and returns a new component with additional props or logic."
+        },
+        {
+            "question": "What are arrow functions in ES6?",
+            "options": [
+                "They are just a shorter syntax for regular function expressions and have no other differences.",
+                "They are primarily for drawing arrows on a web page.",
+                "A more concise syntax for writing function expressions, which also lexically binds the `this` value.",
+                "Functions that always return another function."
+            ],
+            "answer": "A more concise syntax for writing function expressions, which also lexically binds the `this` value."
+        },
+        {
+            "question": "What is the main purpose of responsive web design?",
+            "options": [
+                "To make websites load faster.",
+                "To make websites accessible to people with disabilities.",
+                "To ensure that web applications work well on a wide variety of devices and screen sizes.",
+                "To make websites more visually appealing with animations."
+            ],
+            "answer": "To ensure that web applications work well on a wide variety of devices and screen sizes."
+        },
+        {
+            "question": "What is the `useContext` hook in React used for?",
+            "options": [
+                "To manage local component state.",
+                "To perform side effects in a component.",
+                "To subscribe to React context without introducing nesting, making it easier to consume shared data.",
+                "To define the structure of a component's props."
+            ],
+            "answer": "To subscribe to React context without introducing nesting, making it easier to consume shared data."
+        },
+        {
+            "question": "What is tree shaking in the context of frontend development?",
+            "options": [
+                "A debugging technique for finding errors in a component tree.",
+                "A build optimization process that eliminates unused code (dead-code elimination) from the final bundle.",
+                "A way to visualize the component hierarchy.",
+                "An animation effect for user interface elements."
+            ],
+            "answer": "A build optimization process that eliminates unused code (dead-code elimination) from the final bundle."
+        },
+        {
+            "question": "How do you make a new `git` branch called 'feature' and switch to it in one command?",
+            "options": [
+                "`git branch feature && git checkout feature`",
+                "`git new-branch feature`",
+                "`git checkout -b feature`",
+                "`git switch feature`"
+            ],
+            "answer": "`git checkout -b feature`"
+        },
+        {
+            "question": "What is the `z-index` property in CSS used for?",
+            "options": [
+                "To set the zoom level of an element.",
+                "To specify the stack order of a positioned element, determining which element appears in front of or behind others.",
+                "To define the element's position on the x-axis.",
+                "To control the text size."
+            ],
+            "answer": "To specify the stack order of a positioned element, determining which element appears in front of or behind others."
+        },
+        {
+            "question": "Which of these is NOT a valid JavaScript data type?",
+            "options": [
+                "`Symbol`",
+                "`BigInt`",
+                "`char`",
+                "`undefined`"
+            ],
+            "answer": "`char`"
+        }
+    ],
+    "DevOps Engineer": [
+        {
+            "question": "What is the key difference between Continuous Delivery and Continuous Deployment?",
+            "options": [
+                "Continuous Delivery is for developers, while Continuous Deployment is for operations.",
+                "Continuous Delivery requires a manual approval step to release to production, while Continuous Deployment is fully automated.",
+                "Continuous Delivery uses Jenkins, while Continuous Deployment uses GitLab CI.",
+                "There is no difference; the terms are interchangeable."
+            ],
+            "answer": "Continuous Delivery requires a manual approval step to release to production, while Continuous Deployment is fully automated."
+        },
+        {
+            "question": "In the context of Infrastructure as Code (IaC), what does 'idempotency' mean?",
+            "options": [
+                "The process runs very quickly.",
+                "The process requires manual intervention to complete.",
+                "Applying the same configuration multiple times results in the same state as applying it once.",
+                "The process deletes the old infrastructure before creating a new one."
+            ],
+            "answer": "Applying the same configuration multiple times results in the same state as applying it once."
+        },
+        {
+            "question": "What is the primary purpose of the `terraform state` file?",
+            "options": [
+                "To store provider credentials securely.",
+                "To define the infrastructure resources in HCL.",
+                "To keep a record of the managed infrastructure and map it to the configuration.",
+                "To store the history of `terraform apply` commands."
+            ],
+            "answer": "To keep a record of the managed infrastructure and map it to the configuration."
+        },
+        {
+            "question": "Which of the following best describes Ansible's architecture?",
+            "options": [
+                "It uses a master-agent architecture where an agent is required on every managed node.",
+                "It is agentless and communicates with managed nodes typically over SSH.",
+                "It relies on a central database to store the state of all managed nodes.",
+                "It uses a pull-based model where nodes fetch their configuration from a central server."
+            ],
+            "answer": "It is agentless and communicates with managed nodes typically over SSH."
+        },
+        {
+            "question": "In a Dockerfile, what is the main difference between the `COPY` and `ADD` instructions?",
+            "options": [
+                "They are identical.",
+                "`COPY` is for files, `ADD` is for directories.",
+                "`ADD` has extra features, such as unpacking compressed files and fetching remote URLs, while `COPY` is for simple file copying.",
+                "`COPY` creates a new layer in the image, while `ADD` does not."
+            ],
+            "answer": "`ADD` has extra features, such as unpacking compressed files and fetching remote URLs, while `COPY` is for simple file copying."
+        },
+        {
+            "question": "What is the fundamental role of a 'Service' in Kubernetes?",
+            "options": [
+                "To provide a persistent storage volume for a Pod.",
+                "To run a single, long-running container.",
+                "To provide a stable network endpoint (like an IP address and DNS name) for a dynamic set of Pods.",
+                "To schedule Pods onto worker nodes."
+            ],
+            "answer": "To provide a stable network endpoint (like an IP address and DNS name) for a dynamic set of Pods."
+        },
+        {
+            "question": "What is the main purpose of using a tool like Helm for Kubernetes?",
+            "options": [
+                "To monitor the health of the Kubernetes cluster.",
+                "To manage Kubernetes applications through reusable packages called charts.",
+                "To provide a secure container registry.",
+                "To automatically scale Kubernetes nodes."
+            ],
+            "answer": "To manage Kubernetes applications through reusable packages called charts."
+        },
+        {
+            "question": "In Git, what is the primary outcome of `git rebase main` while on a feature branch?",
+            "options": [
+                "It merges the `main` branch into the feature branch, creating a merge commit.",
+                "It moves the entire feature branch to begin on the tip of the `main` branch, creating a linear history.",
+                "It deletes the `main` branch.",
+                "It pushes the feature branch to the remote repository."
+            ],
+            "answer": "It moves the entire feature branch to begin on the tip of the `main` branch, creating a linear history."
+        },
+        {
+            "question": "Which of the following is NOT one of the 'Three Pillars of Observability'?",
+            "options": [
+                "Metrics",
+                "Logs",
+                "Traces",
+                "Alerts"
+            ],
+            "answer": "Alerts"
+        },
+        {
+            "question": "What is a 'declarative' approach to infrastructure management, as used by Terraform?",
+            "options": [
+                "You write a script that specifies the exact steps to reach the desired state.",
+                "You define the desired end state of the infrastructure, and the tool figures out how to get there.",
+                "You manually create infrastructure through a web console.",
+                "You use a programming language to build infrastructure."
+            ],
+            "answer": "You define the desired end state of the infrastructure, and the tool figures out how to get there."
+        },
+        {
+            "question": "In Kubernetes, which component is responsible for storing the cluster's state and configuration?",
+            "options": [
+                "kube-apiserver",
+                "kubelet",
+                "etcd",
+                "kube-scheduler"
+            ],
+            "answer": "etcd"
+        },
+        {
+            "question": "What is the purpose of a Jenkinsfile?",
+            "options": [
+                "To configure the Jenkins master node's system settings.",
+                "To define a CI/CD pipeline as code, which can be versioned and stored with the application's source code.",
+                "To manage Jenkins plugins.",
+                "To store user credentials for Jenkins."
+            ],
+            "answer": "To define a CI/CD pipeline as code, which can be versioned and stored with the application's source code."
+        },
+        {
+            "question": "In AWS, what is the difference between a Security Group and a Network Access Control List (NACL)?",
+            "options": [
+                "Security Groups are stateless; NACLs are stateful.",
+                "Security Groups operate at the instance level (stateful), while NACLs operate at the subnet level (stateless).",
+                "Security Groups only allow inbound rules, while NACLs allow inbound and outbound.",
+                "They are different names for the same service."
+            ],
+            "answer": "Security Groups operate at the instance level (stateful), while NACLs operate at the subnet level (stateless)."
+        },
+        {
+            "question": "What is the concept of 'immutable infrastructure'?",
+            "options": [
+                "Infrastructure that cannot be accessed or modified after creation.",
+                "A practice where servers are never modified after deployment; instead, a new server is built from a base image with the latest changes and deployed to replace the old one.",
+                "Using physical servers instead of virtual machines.",
+                "An infrastructure that automatically scales down to zero when not in use."
+            ],
+            "answer": "A practice where servers are never modified after deployment; instead, a new server is built from a base image with the latest changes and deployed to replace the old one."
+        },
+        {
+            "question": "Which Docker command is used to build an image from a Dockerfile?",
+            "options": [
+                "`docker run`",
+                "`docker create`",
+                "`docker push`",
+                "`docker build`"
+            ],
+            "answer": "`docker build`"
+        },
+        {
+            "question": "In Kubernetes, what is the role of an 'Ingress'?",
+            "options": [
+                "To manage communication between Pods inside the cluster.",
+                "To expose HTTP and HTTPS routes from outside the cluster to services within the cluster.",
+                "To provide persistent storage for stateful applications.",
+                "To manage container runtime on a node."
+            ],
+            "answer": "To expose HTTP and HTTPS routes from outside the cluster to services within the cluster."
+        },
+        {
+            "question": "What type of monitoring model does Prometheus primarily use?",
+            "options": [
+                "Push-based, where agents send metrics to a central server.",
+                "Pull-based, where Prometheus scrapes metrics from configured endpoints.",
+                "Log-based, where it parses log files for metrics.",
+                "Trace-based, where it follows requests through a distributed system."
+            ],
+            "answer": "Pull-based, where Prometheus scrapes metrics from configured endpoints."
+        },
+        {
+            "question": "What is the purpose of HashiCorp Vault?",
+            "options": [
+                "To store and manage infrastructure state for Terraform.",
+                "To provide a service mesh for microservices.",
+                "To securely store and control access to secrets like API keys, passwords, and certificates.",
+                "To build and version application artifacts."
+            ],
+            "answer": "To securely store and control access to secrets like API keys, passwords, and certificates."
+        },
+        {
+            "question": "In a CI pipeline, what is 'linting'?",
+            "options": [
+                "The process of running unit tests.",
+                "The process of compiling the source code.",
+                "The process of analyzing source code to flag programming errors, bugs, and stylistic issues.",
+                "The process of deploying the application to a staging environment."
+            ],
+            "answer": "The process of analyzing source code to flag programming errors, bugs, and stylistic issues."
+        },
+        {
+            "question": "What is a 'sidecar' container in a Kubernetes Pod?",
+            "options": [
+                "A container that runs before the main container to perform setup tasks.",
+                "A secondary container that runs alongside the main application container to provide supporting features like logging, monitoring, or proxying.",
+                "A container that is used only for debugging purposes.",
+                "The main application container in the Pod."
+            ],
+            "answer": "A secondary container that runs alongside the main application container to provide supporting features like logging, monitoring, or proxying."
+        },
+        {
+            "question": "What is the 'GitFlow' workflow?",
+            "options": [
+                "A Git command that automatically fixes merge conflicts.",
+                "A branching model that uses long-lived branches like `main` and `develop` along with supporting branches for features, releases, and hotfixes.",
+                "A feature of GitHub for visualizing project history.",
+                "A requirement that all commits must be signed."
+            ],
+            "answer": "A branching model that uses long-lived branches like `main` and `develop` along with supporting branches for features, releases, and hotfixes."
+        },
+        {
+            "question": "In Terraform, what does the `terraform plan` command do?",
+            "options": [
+                "It immediately applies the configuration to the cloud provider.",
+                "It validates the syntax of the configuration files.",
+                "It creates an execution plan showing what actions Terraform will take to achieve the desired state without actually performing them.",
+                "It destroys all managed infrastructure."
+            ],
+            "answer": "It creates an execution plan showing what actions Terraform will take to achieve the desired state without actually performing them."
+        },
+        {
+            "question": "What is a 'canary release' deployment strategy?",
+            "options": [
+                "Deploying the new version to all users at once.",
+                "Deploying the new version to a small subset of users first to test its performance and stability before rolling it out to everyone.",
+                "Deploying the new version alongside the old one and switching traffic instantly.",
+                "Deploying the new version and then immediately rolling it back."
+            ],
+            "answer": "Deploying the new version to a small subset of users first to test its performance and stability before rolling it out to everyone."
+        },
+        {
+            "question": "What is the role of a 'kubelet' in a Kubernetes cluster?",
+            "options": [
+                "It is the main API server for the cluster.",
+                "It is an agent that runs on each worker node, ensuring that containers are running in a Pod as specified by the control plane.",
+                "It watches for new Pods and assigns them to nodes.",
+                "It manages network routing within the cluster."
+            ],
+            "answer": "It is an agent that runs on each worker node, ensuring that containers are running in a Pod as specified by the control plane."
+        },
+        {
+            "question": "In Bash scripting, what does `#!/bin/bash` at the beginning of a script signify?",
+            "options": [
+                "It is a comment and is ignored.",
+                "It specifies the interpreter (in this case, bash) that should be used to execute the script.",
+                "It imports the bash library.",
+                "It sets the script to run with root privileges."
+            ],
+            "answer": "It specifies the interpreter (in this case, bash) that should be used to execute the script."
+        },
+        {
+            "question": "What is the difference between an 'image' and a 'container' in Docker?",
+            "options": [
+                "They are the same thing.",
+                "An image is a running instance of a container.",
+                "An image is a read-only template with instructions for creating a container. A container is a runnable instance of an image.",
+                "Images are stored in a registry, while containers run on the local machine only."
+            ],
+            "answer": "An image is a read-only template with instructions for creating a container. A container is a runnable instance of an image."
+        },
+        {
+            "question": "What is a 'blue-green' deployment strategy?",
+            "options": [
+                "Gradually shifting traffic from the old version to the new version.",
+                "Setting up a new, identical production environment ('green') alongside the existing one ('blue'), switching all traffic to the new environment once it's ready.",
+                "Deploying a new version to a small subset of users.",
+                "A strategy focused on deploying during off-peak hours."
+            ],
+            "answer": "Setting up a new, identical production environment ('green') alongside the existing one ('blue'), switching all traffic to the new environment once it's ready."
+        },
+        {
+            "question": "In GitLab CI/CD, what is a 'Runner'?",
+            "options": [
+                "The user who triggers a pipeline.",
+                "A script that defines the CI/CD pipeline.",
+                "An agent that executes the jobs defined in the `.gitlab-ci.yml` file.",
+                "A report generated after a pipeline completes."
+            ],
+            "answer": "An agent that executes the jobs defined in the `.gitlab-ci.yml` file."
+        },
+        {
+            "question": "In Kubernetes, what is a `ConfigMap` used for?",
+            "options": [
+                "Storing sensitive information like passwords and API keys.",
+                "Storing non-confidential configuration data as key-value pairs that can be consumed by Pods.",
+                "Defining the network policies for Pods.",
+                "Mapping a domain name to a Service IP."
+            ],
+            "answer": "Storing non-confidential configuration data as key-value pairs that can be consumed by Pods."
+        },
+        {
+            "question": "What is the primary benefit of using a service mesh like Istio or Linkerd?",
+            "options": [
+                "To provision and manage the underlying cloud infrastructure.",
+                "To provide a dedicated layer for managing service-to-service communication, offering features like traffic management, security, and observability.",
+                "To build container images automatically.",
+                "To store and manage application secrets."
+            ],
+            "answer": "To provide a dedicated layer for managing service-to-service communication, offering features like traffic management, security, and observability."
+        },
+        {
+            "question": "In the context of cloud computing, what is 'auto-scaling'?",
+            "options": [
+                "The ability to manually add or remove servers.",
+                "The automatic adjustment of computing resources based on the application's current load.",
+                "A security feature that automatically patches servers.",
+                "A billing model where you pay for what you use."
+            ],
+            "answer": "The automatic adjustment of computing resources based on the application's current load."
+        },
+        {
+            "question": "What is the purpose of the `.` in the command `docker build -t my-image .`?",
+            "options": [
+                "It is a typo and should be removed.",
+                "It specifies the build context, which is the set of files at the specified location (in this case, the current directory).",
+                "It tells Docker to use the latest version of the base image.",
+                "It forces the build to run in interactive mode."
+            ],
+            "answer": "It specifies the build context, which is the set of files at the specified location (in this case, the current directory)."
+        },
+        {
+            "question": "Which of the following best describes the 'Principle of Least Privilege'?",
+            "options": [
+                "Giving all users administrator access to simplify management.",
+                "Granting an entity only the minimum permissions necessary to perform its function.",
+                "Using the least expensive cloud resources available.",
+                "Writing the least amount of code possible to achieve a task."
+            ],
+            "answer": "Granting an entity only the minimum permissions necessary to perform its function."
+        },
+        {
+            "question": "In an Ansible playbook, what is a 'handler'?",
+            "options": [
+                "The user who runs the playbook.",
+                "A special kind of task that only runs when notified by another task, typically used for actions like restarting a service.",
+                "A variable defined in the playbook.",
+                "A module that handles user input."
+            ],
+            "answer": "A special kind of task that only runs when notified by another task, typically used for actions like restarting a service."
+        },
+        {
+            "question": "What is a 'Dockerfile multi-stage build' used for?",
+            "options": [
+                "Building images for multiple CPU architectures at once.",
+                "Creating smaller, more secure production images by separating the build environment from the runtime environment.",
+                "Running multiple containers from a single Dockerfile.",
+                "A build process that requires manual intervention at each stage."
+            ],
+            "answer": "Creating smaller, more secure production images by separating the build environment from the runtime environment."
+        },
+        {
+            "question": "What is the role of a 'Deployment' object in Kubernetes?",
+            "options": [
+                "To manage a set of identical Pods, handling rolling updates and rollbacks.",
+                "To provide a single, persistent storage volume.",
+                "To define a scheduled, recurring job.",
+                "To expose a service to the internet."
+            ],
+            "answer": "To manage a set of identical Pods, handling rolling updates and rollbacks."
+        },
+        {
+            "question": "Which AWS service is a managed relational database service?",
+            "options": [
+                "S3",
+                "EC2",
+                "Lambda",
+                "RDS"
+            ],
+            "answer": "RDS"
+        },
+        {
+            "question": "What is the purpose of the 'shebang' (`#!`) in a shell script?",
+            "options": [
+                "It's a comment used for documentation.",
+                "It defines the script's exit code.",
+                "It specifies the path to the interpreter that should execute the script.",
+                "It's a placeholder for environment variables."
+            ],
+            "answer": "It specifies the path to the interpreter that should execute the script."
+        },
+        {
+            "question": "In a CI/CD context, what does the term 'artifact' refer to?",
+            "options": [
+                "The source code of the application.",
+                "The files produced by a build process, such as a compiled binary, a JAR file, or a Docker image.",
+                "A legacy piece of code that is no longer used.",
+                "A log file from a failed pipeline."
+            ],
+            "answer": "The files produced by a build process, such as a compiled binary, a JAR file, or a Docker image."
+        },
+        {
+            "question": "In Kubernetes, what is a `StatefulSet` primarily used for?",
+            "options": [
+                "Running stateless web applications.",
+                "Managing stateful applications that require stable, unique network identifiers and persistent storage.",
+                "Executing one-off batch jobs.",
+                "Running a daemon on every node in the cluster."
+            ],
+            "answer": "Managing stateful applications that require stable, unique network identifiers and persistent storage."
+        },
+        {
+            "question": "What is 'chaos engineering'?",
+            "options": [
+                "A development practice where code is written without any planning.",
+                "The discipline of experimenting on a system by deliberately injecting failures in order to build confidence in the system's ability to withstand turbulent conditions.",
+                "A deployment strategy that releases code randomly.",
+                "A type of security attack."
+            ],
+            "answer": "The discipline of experimenting on a system by deliberately injecting failures in order to build confidence in the system's ability to withstand turbulent conditions."
+        },
+        {
+            "question": "What does the `terraform fmt` command do?",
+            "options": [
+                "Validates the Terraform configuration.",
+                "Applies the Terraform configuration.",
+                "Rewrites Terraform configuration files to a canonical format and style.",
+                "Initializes a Terraform working directory."
+            ],
+            "answer": "Rewrites Terraform configuration files to a canonical format and style."
+        },
+        {
+            "question": "Which of these is a key benefit of using Infrastructure as Code?",
+            "options": [
+                "It eliminates the need for version control.",
+                "It makes infrastructure provisioning faster, more consistent, and repeatable.",
+                "It is always cheaper than managing infrastructure manually.",
+                "It removes the need for monitoring."
+            ],
+            "answer": "It makes infrastructure provisioning faster, more consistent, and repeatable."
+        },
+        {
+            "question": "What is the primary role of an API Gateway in a microservices architecture?",
+            "options": [
+                "To store application data.",
+                "To act as a single entry point for all client requests, routing them to the appropriate microservice.",
+                "To monitor the health of each microservice.",
+                "To run the microservices' code."
+            ],
+            "answer": "To act as a single entry point for all client requests, routing them to the appropriate microservice."
+        },
+        {
+            "question": "In Prometheus, what is PromQL?",
+            "options": [
+                "A configuration language for Prometheus.",
+                "A query language used to select and aggregate time series data in Prometheus.",
+                "A type of database used by Prometheus.",
+                "An alerting rule format."
+            ],
+            "answer": "A query language used to select and aggregate time series data in Prometheus."
+        },
+        {
+            "question": "What is a 'webhook' in the context of CI/CD?",
+            "options": [
+                "A special Git command for merging branches.",
+                "A security token for accessing a private repository.",
+                "An automated message (HTTP callback) sent from one system to another when an event occurs, such as pushing code to a repository.",
+                "A manual approval gate in a pipeline."
+            ],
+            "answer": "An automated message (HTTP callback) sent from one system to another when an event occurs, such as pushing code to a repository."
+        },
+        {
+            "question": "In AWS, what is the primary purpose of an IAM Role?",
+            "options": [
+                "To create a new user with a password.",
+                "To grant permissions to an AWS service (like EC2) to access other AWS resources without needing to embed credentials.",
+                "To define a group of users.",
+                "To set up billing alerts for an account."
+            ],
+            "answer": "To grant permissions to an AWS service (like EC2) to access other AWS resources without needing to embed credentials."
+        },
+        {
+            "question": "What is a 'golden image' in the context of infrastructure management?",
+            "options": [
+                "The most expensive server in a data center.",
+                "A template or base image (e.g., an AMI) for a virtual machine that is pre-configured with a specific OS, software, and settings.",
+                "A backup of the production database.",
+                "A Docker image stored in a private registry."
+            ],
+            "answer": "A template or base image (e.g., an AMI) for a virtual machine that is pre-configured with a specific OS, software, and settings."
+        },
+        {
+            "question": "What does a `livenessProbe` in Kubernetes do?",
+            "options": [
+                "It checks if a container is ready to start accepting traffic.",
+                "It checks if a container is still running; if the probe fails, the kubelet kills and restarts the container.",
+                "It runs a one-time check when the container starts.",
+                "It probes the health of the entire cluster."
+            ],
+            "answer": "It checks if a container is still running; if the probe fails, the kubelet kills and restarts the container."
+        },
+        {
+            "question": "What is the primary function of the ELK Stack?",
+            "options": [
+                "To provide a centralized platform for searching, analyzing, and visualizing log data.",
+                "To manage and orchestrate containers.",
+                "To provision cloud infrastructure as code.",
+                "To act as a CI/CD server."
+            ],
+            "answer": "To provide a centralized platform for searching, analyzing, and visualizing log data."
+        }
+    ]
+}
