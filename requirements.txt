@@ -1,5 +1,11 @@
-streamlit
+fastapi
+uvicorn[standard]
+gunicorn
 langchain
 langchain-google-genai
+langchain-community
+langchain-core
 chromadb
 python-dotenv
+pydantic
+python-multipart
